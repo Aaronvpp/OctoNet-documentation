@@ -1,0 +1,3 @@
+[submodule "OctoNet_code"]
+	path = OctoNet_code
+	url = https://github.com/aiot-lab/OctoNet
