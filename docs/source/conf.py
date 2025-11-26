@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'OctoNet'
-copyright = '2024, HKU AIoT Lab'
+copyright = '2025, HKU AIoT Lab'
 author = 'HKU AIoT Lab'
 
 release = '1.0'
@@ -45,3 +45,33 @@ import sys
 sys.path.insert(0, os.path.abspath('../../OctoNet_code'))
 # 如果需要引用 OctonetBenchmark 下的模块
 sys.path.insert(0, os.path.abspath('../../OctoNet_code/OctonetBenchmark'))
+
+# Project information
+project = 'OctoNet'
+copyright = '2024, HKU AIoT Lab'
+author = 'HKU AIoT Lab'
+release = '1.0'
+
+# Extensions
+extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.napoleon',
+    'sphinx.ext.viewcode',
+    'myst_parser',
+]
+
+# MyST settings - enable admonitions and other features
+myst_enable_extensions = [
+    "colon_fence",
+    "deflist",
+    "tasklist",
+]
+
+# Theme
+html_theme = 'sphinx_rtd_theme'
+
+# Source file suffixes
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}

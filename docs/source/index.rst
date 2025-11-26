@@ -1,19 +1,41 @@
-Welcome to OctoNet's documentation!
+Welcome to OctoNet's Documentation!
 ===================================
 
-OctoNet is a Large-Scale Multi-Modal Dataset for Human Activity Understanding.
+.. image:: https://github.com/aiot-lab/OctoNet/raw/main/figs/octonet_overview.png
+   :alt: OctoNet Overview
+   :align: center
+   :width: 100%
+
+----
+
+**OctoNet** is a large-scale multi-modal dataset for human activity understanding,
+featuring synchronized data from **12 sensor modalities** and motion-captured 3D pose labels.
+
+.. note::
+
+   **Dataset Statistics:** ~768 GB | 41 participants | 62 activities | 12 modalities | 5 sensor nodes
+
+----
+
+Quick Links
+-----------
+
+* `Dataset on Hugging Face <https://huggingface.co/datasets/hku-aiot/OctoNet>`_
+* `Source Code on GitHub <https://github.com/aiot-lab/OctoNet>`_
+* `Project Page <https://aiot-lab.github.io/OctoNet/>`_
+
+----
 
 .. toctree::
    :maxdepth: 2
    :caption: Tutorials
 
    tutorials/installation
-   tutorials/getting_started
    tutorials/dataset_structure
+   tutorials/getting_started
 
 .. toctree::
    :maxdepth: 2
-   :caption: API Reference
+   :caption: Benchmark and Evaluation
 
-   api/dataset_loader
-   api/octonet_benchmark
+   tutorials/benchmarks
